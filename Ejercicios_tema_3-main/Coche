@@ -1,0 +1,14 @@
+public class Main {
+    public static void main(String[] args) {
+        Coche miCoche = new Coche();
+        miCoche.SumarPuerta();
+        System.out.println(miCoche.Puerta);
+    }
+}
+class Coche {
+    public int Puerta = 4;
+
+    public  void SumarPuerta() {
+        this.Puerta++;
+    }
+}
