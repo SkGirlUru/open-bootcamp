@@ -1,19 +1,9 @@
 public class Main {
     public static void main(String[] args) {
 
-        Persona persona = new Persona();
-        persona.nombre = "Maria";
-        persona.edad = 34;
-        persona.telefono = 654096821;
-
-
-        System.out.println(persona.nombre);
-        System.out.println(persona.edad);
-        System.out.println(persona.telefono);
-
-
-
-        Cliente cliente = new Cliente();
+      
+       Cliente cliente = new Cliente();
+       Trabajador trabajador = new Trabajador();
 
        cliente.nombre = "juan";
        cliente.edad = 34;
@@ -25,8 +15,7 @@ public class Main {
         System.out.println(cliente.telefono);
         System.out.println(cliente.credito);
 
-        Trabajador trabajador = new Trabajador();
-
+       
         trabajador.nombre = "Luis";
         trabajador.edad = 54;
         trabajador.telefono = 321565434;
